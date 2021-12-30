@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Sat Nov 13 17:45:58 2021
+# Process ID: 25140
+# Current directory: C:/Users/heman/Encoder/Encoder.runs/impl_1
+# Command line: vivado.exe -log Rate_Coding.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Rate_Coding.tcl -notrace
+# Log file: C:/Users/heman/Encoder/Encoder.runs/impl_1/Rate_Coding.vdi
+# Journal file: C:/Users/heman/Encoder/Encoder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Rate_Coding.tcl -notrace

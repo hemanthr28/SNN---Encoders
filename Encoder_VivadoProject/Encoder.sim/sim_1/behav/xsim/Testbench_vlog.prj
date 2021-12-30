@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Encoder.srcs/sources_1/new/Dff.v" \
+"../../../../Encoder.srcs/sources_1/new/Mux.v" \
+"../../../../Encoder.srcs/sources_1/new/Randnum_generator.v" \
+"../../../../Encoder.srcs/sources_1/new/Rate_Coding.v" \
+"../../../../Encoder.srcs/sources_1/new/comparator.v" \
+"../../../../Encoder.srcs/sources_1/new/xor_gate.v" \
+"../../../../Encoder.srcs/sim_1/new/Testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/Dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/Randnum_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Randnum_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/Rate_Coding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rate_Coding
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'rand_num' is not allowed [C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/Rate_Coding.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/comparator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sources_1/new/xor_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Encoder/Encoder.srcs/sim_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Testbench

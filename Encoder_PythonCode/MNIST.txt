@@ -1,0 +1,1 @@
+MINST is a database of 28X28 pixel grayscale images. 

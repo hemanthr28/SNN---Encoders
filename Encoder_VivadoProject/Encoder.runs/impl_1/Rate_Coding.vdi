@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Sat Nov 13 17:45:58 2021
+# Process ID: 25140
+# Current directory: C:/Users/heman/Encoder/Encoder.runs/impl_1
+# Command line: vivado.exe -log Rate_Coding.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Rate_Coding.tcl -notrace
+# Log file: C:/Users/heman/Encoder/Encoder.runs/impl_1/Rate_Coding.vdi
+# Journal file: C:/Users/heman/Encoder/Encoder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Rate_Coding.tcl -notrace
+Command: open_checkpoint C:/Users/heman/Encoder/Encoder.runs/impl_1/Rate_Coding.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1237.828 ; gain = 0.000
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for avnet.com:zedboard:part0:1.4. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for avnet.com:zedboard:part0:1.4. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1279.895 ; gain = 11.387
+INFO: [Netlist 29-17] Analyzing 31219 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.278 . Memory (MB): peak = 1650.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2021.1.1 (64-bit) build 3286242
+open_checkpoint: Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 1650.504 ; gain = 412.676
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[0] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_11/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_1/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_101/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_103/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_10/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_105/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_104/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_107/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_102/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_110/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_106/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_100/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_108/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_109/O, genblk1[118].Cmp/rand_num_OBUF[0]_inst_i_117/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[1] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_336/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_335/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_343/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_340/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_339/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_344/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_338/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_34/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_345/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_337/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_334/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_341/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_342/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_100/O, genblk1[118].Cmp/rand_num_OBUF[1]_inst_i_102/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[2] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_35/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_353/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_355/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_351/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_352/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_349/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_347/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_350/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_354/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_356/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_348/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_103/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_104/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_102/O, genblk1[118].Cmp/rand_num_OBUF[2]_inst_i_10/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[3] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_272/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_277/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_274/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_278/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_271/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_275/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_276/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_279/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_273/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_282/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_280/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_28/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_284/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_285/O, genblk1[118].Cmp/rand_num_OBUF[3]_inst_i_281/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[4] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_1/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_101/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_10/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_100/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_103/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_102/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_104/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_105/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_106/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_112/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_113/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_109/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_110/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_114/O, genblk1[118].Cmp/rand_num_OBUF[4]_inst_i_11/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[5] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_341/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_339/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_334/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_34/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_343/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_335/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_344/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_332/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_336/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_338/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_333/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_340/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_342/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_337/O, genblk1[118].Cmp/rand_num_OBUF[5]_inst_i_345/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[6] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_10/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_100/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_1/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_101/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_130/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_13/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_102/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_103/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_104/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_105/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_106/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_107/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_108/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_109/O, genblk1[118].Cmp/rand_num_OBUF[6]_inst_i_11/O... and (the first 15 of 784 listed).
+ERROR: [DRC MDRV-1] Multiple Driver Nets: Net genblk1[118].Cmp/rand_num_OBUF[7] has multiple drivers: genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_101/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_1/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_10/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_100/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_103/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_102/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_105/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_104/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_106/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_107/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_108/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_11/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_109/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_111/O, genblk1[118].Cmp/rand_num_OBUF[7]_inst_i_112/O... and (the first 15 of 784 listed).
+INFO: [Project 1-461] DRC finished with 8 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1656.719 ; gain = 6.215
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 0 Warnings, 2 Critical Warnings and 9 Errors encountered.
+opt_design failed
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1656.719 ; gain = 6.215
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 13 17:48:01 2021...
